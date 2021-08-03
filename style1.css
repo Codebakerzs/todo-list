@@ -17,6 +17,10 @@
     margin-left: 24%;
     font-size: 2.4rem;
 }
+.addlist a{
+    text-decoration: none;
+    color: black;
+}
 #logo{
     color: red;
 }
@@ -33,6 +37,7 @@
     text-decoration: none;
     color: black;
 }
+
 .maincard hr{
     width: 89.3%;
     color: aliceblue;

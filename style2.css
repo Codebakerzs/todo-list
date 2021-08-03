@@ -28,10 +28,17 @@
     /* align-content: center; */
     /* justify-content: center; */
 }
-
+.Backarrow a{
+    text-decoration: none;
+    color: black;
+}
 #logo{
     color: rgb(240, 83, 56);
 
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 83, 56);
 }
 .maincard{
     display: flex;
