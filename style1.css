@@ -1,7 +1,6 @@
 *{
     margin: 0;
 }
-
 .Heading{
     display: flex;
     justify-content: center;
@@ -23,12 +22,20 @@
 }
 
 .maincard{
-    margin-top: 5%;
+    margin: 5% 25% 0% 25%;
     display: flex;
     justify-content: center;
     flex-direction: row;
-
+    justify-content: space-between;
     
+}
+.maincard a{
+    text-decoration: none;
+    color: black;
+}
+.maincard hr{
+    width: 89.3%;
+    color: aliceblue;
 }
 .card{
     border: 1px solid red;
@@ -58,5 +65,97 @@ hr{
 
 .checkbox{
     margin-top: 20px;
+    margin-left: 20px;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px)  {
+    .Heading{
+        display: flex;
+        justify-content: initial;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 80px;
+    }
+    .text{
+        font-size: 2.5rem;
+        width: auto;
+        margin-left: 2%;
+        margin-right: 25%;
+    }
+    .addlist{
+        margin-left: 0px;
+        visibility: hidden;
+    }
+    .List{
+        width: 50px;
+    }
+    #logo{
+        margin: 0%;
+        visibility: visible;
+    }
+    .completedtask{
+        visibility: hidden;
+    }
+    hr{
+        visibility: hidden;
+    }
+    .checkbox{
+        visibility: hidden;
+    }
+    .maincard{
+        margin: 5% 5% 0% 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .maincard a{
+        text-decoration: none;
+        color: black;
+    }
+    .card{
+        border: 1px solid rgb(226, 122, 122);
+        box-shadow: 3px 4px 3px rgba(209, 207, 207, 0.795);
+        border-radius: 7px;
+        height: 60px;
+        width: 285px;
+        padding: 1%;
+        margin-bottom:8.8%;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .completedtask{
+        visibility: hidden;
+    }
+    hr{
+        visibility: hidden;
+    }
+    .checkbox{
+        visibility: hidden;
+    }
+    .maincard{
+        margin: 5% 5% 0% 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .maincard a{
+        text-decoration: none;
+        color: black;
+    }
+    .card{
+        border: 1px solid rgb(226, 122, 122);
+        box-shadow: 3px 4px 3px rgba(209, 207, 207, 0.795);
+        border-radius: 7px;
+        height: 60px;
+        width: 485px;
+        padding: 1%;
+        margin-bottom:8.8%;
+    }
 }

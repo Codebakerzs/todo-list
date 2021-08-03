@@ -8,6 +8,19 @@
     margin-top: 5%;
 }
 
+.span{
+    font-size: 60px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+#log{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    margin: 0%;
+    padding: 0%;
+}
+
 .Backarrow{
     text-align: center;
     margin-top: 5%;
@@ -49,7 +62,8 @@
 }
 
 hr{
-    margin-left: 130px;
+    margin-left: 120px;
+    margin-right: 0px;
     padding: 0px;
 }
 
@@ -86,3 +100,176 @@ hr{
 
 
 }
+
+@media screen and (max-width: 450px){
+    .heading{
+        width: 100%;
+        height: 35px; 
+        text-align: left;
+        border-bottom: 0px solid black; 
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 30%;
+    }
+    
+    .span{
+        font-size: 40px;
+        background-color: #fff;
+        padding: 0 5px;
+    }
+    #log{
+        visibility: visible;
+        color: rgb(240, 83, 56);
+        margin-right: 15%;
+        margin-left: 2%;
+    }
+    .Backarrow{
+        visibility: hidden;
+    }
+    .card{  
+        border: 1px solid rgb(240, 83, 56);
+        box-shadow: 6px 8px 5px rgba(190, 190, 190, 0.795);
+        border-radius: 7px;
+        height: 400px;
+        width: 250px;
+        padding: 1%;
+        
+    
+    }
+    .cardtext{
+        font-size: 1.7rem;
+        color: rgb(240, 83, 56);
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 15px 18px 5px 18px;
+    }
+    
+    hr{
+        margin-left: 60px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    
+    .completedtask{
+        margin-top: 40px;
+        color: rgb(240, 83, 56);
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 20px;
+        font-size: 1.3rem;
+    }
+    
+    .checkbox{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 1.3rem;
+        margin-right: 2%;
+        letter-spacing: 2px;
+    }
+    
+    #check{
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    
+    #logo1{
+        float: right;
+        font-size: 2.3rem;
+        margin: 66% 5px 5px 0px;
+        color: rgb(240, 83, 56);
+    
+    
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 750px){
+    .heading{
+        width: 100%;
+        height: 35px; 
+        text-align: left;
+        border-bottom: 0px solid black; 
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 30%;
+    }
+    
+    .span{
+        font-size: 60px;
+        background-color: #fff;
+        padding: 0 5px;
+    }
+    #log{
+        visibility: visible;
+        color: rgb(240, 83, 56);
+        margin-right: 15%;
+        margin-left: 2%;
+    }
+    .Backarrow{
+        visibility: hidden;
+    }
+    .card{  
+        border: 1px solid rgb(240, 83, 56);
+        box-shadow: 6px 8px 5px rgba(190, 190, 190, 0.795);
+        border-radius: 7px;
+        height: 400px;
+        width: 380px;
+        padding: 1%;
+        
+    
+    }
+    .cardtext{
+        font-size: 2.2rem;
+        color: rgb(240, 83, 56);
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 15px 18px 5px 18px;
+    }
+    
+    hr{
+        margin-left: 90px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    
+    .completedtask{
+        margin-top: 40px;
+        color: rgb(240, 83, 56);
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 20px;
+        font-size: 1.6rem;
+    }
+    
+    .checkbox{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 1.6rem;
+        margin-right: 2%;
+        letter-spacing: 2px;
+    }
+    
+    #check{
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    
+    #logo1{
+        float: right;
+        font-size: 2.3rem;
+        margin: 40% 5px 5px 0px;
+        color: rgb(240, 83, 56);
+    
+    
+    }
+}
+
